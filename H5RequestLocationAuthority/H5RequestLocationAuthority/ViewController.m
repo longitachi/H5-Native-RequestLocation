@@ -7,10 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "WkWebViewController.h"
 
 @interface ViewController () <UIWebViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
+
 
 @end
 
@@ -31,6 +33,11 @@
 - (void)webViewDidFinishLoad:(UIWebView *)webView
 {
     self.title = [webView stringByEvaluatingJavaScriptFromString:@"document.title"];
+}
+
+- (IBAction)jumpNewVC:(id)sender {
+    WkWebViewController *vc = [[WkWebViewController alloc] init];
+    [self showViewController:vc sender:nil];
 }
 
 - (void)didReceiveMemoryWarning {

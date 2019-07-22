@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4D232A022E59DE00059BCDB /* WkWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2329F22E59DE00059BCDB /* WkWebViewController.m */; };
 		FD001A071CA53AED005337EE /* requestAuthOnload.html in Resources */ = {isa = PBXBuildFile; fileRef = FD001A061CA53AED005337EE /* requestAuthOnload.html */; };
 		FD001A0E1CA53C0D005337EE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD001A0D1CA53C0D005337EE /* JavaScriptCore.framework */; };
 		FD664C581CA295BC00F2195D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD664C571CA295BC00F2195D /* main.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4D2329E22E59DE00059BCDB /* WkWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WkWebViewController.h; sourceTree = "<group>"; };
+		E4D2329F22E59DE00059BCDB /* WkWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WkWebViewController.m; sourceTree = "<group>"; };
 		FD001A061CA53AED005337EE /* requestAuthOnload.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = requestAuthOnload.html; sourceTree = "<group>"; };
 		FD001A0D1CA53C0D005337EE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FD664C531CA295BC00F2195D /* H5RequestLocationAuthority.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H5RequestLocationAuthority.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +72,8 @@
 				FD664C5A1CA295BC00F2195D /* AppDelegate.m */,
 				FD664C5C1CA295BC00F2195D /* ViewController.h */,
 				FD664C5D1CA295BC00F2195D /* ViewController.m */,
+				E4D2329E22E59DE00059BCDB /* WkWebViewController.h */,
+				E4D2329F22E59DE00059BCDB /* WkWebViewController.m */,
 				FD664C5F1CA295BC00F2195D /* Main.storyboard */,
 				FD664C621CA295BC00F2195D /* Assets.xcassets */,
 				FD664C641CA295BC00F2195D /* LaunchScreen.storyboard */,
@@ -162,6 +167,7 @@
 				FD664C5E1CA295BC00F2195D /* ViewController.m in Sources */,
 				FD664C5B1CA295BC00F2195D /* AppDelegate.m in Sources */,
 				FD664C581CA295BC00F2195D /* main.m in Sources */,
+				E4D232A022E59DE00059BCDB /* WkWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
